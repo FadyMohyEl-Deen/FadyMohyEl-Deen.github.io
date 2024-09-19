@@ -1,0 +1,128 @@
+html,
+body {
+    height: auto;
+    margin: 0px;
+}
+
+.body {
+    width: 1500px;
+    height: 690px;
+    background-color: hsl(0, 0%, 66%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    color: rgb(33, 33, 33);
+    margin: 0px;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 89%);
+    text-align: center;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transform: scale(50%);
+}
+
+
+.img {
+    width: 150px;
+    border-radius: 75px;
+    margin: 10px;
+}
+
+.img:hover {
+    margin: 50px;
+    scale: 150%;
+    border-radius: 20px;
+    transition-duration: 0.3s
+}
+
+.main ul {
+    display: block;
+    justify-content: center;
+    padding: 0px;
+    width: 500px;
+}
+
+.main li {
+    background-color: rgb(136, 175, 213);
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px;
+    padding: 15px 15px 15px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+.main li:hover {
+    background-color: dodgerblue;
+    scale: 110%;
+    transition-duration: 0.3s;
+}
+
+.main h1 {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.main h2 {
+    margin: 0px 0px 15px 0px;
+
+}
+
+.main h2 a {
+    display: block;
+    /* font-weight: normal; */
+    font-size: 20px;
+    color: dodgerblue;
+    margin-top: 0px;
+}
+
+.main h2 a:hover {
+    scale: 105%;
+    color: dodgerblue
+}
+
+.main p {
+    display: block;
+    padding: 5px;
+    margin: 0px;
+}
+
+.main a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 150px 15px 150px;
+
+}
+
+.maintxt hr {
+    width: 450px;
+    background-color: black;
+}
+
+
+.button {
+    width: 50px;
+    margin-left: 600px;
+    margin-top: -20px;
+}
+
+.dark a {
+    padding: 0px;
+}
